@@ -733,7 +733,7 @@ function createExportWrapper(e, t) {
     }
 }
 console.log("WASM ORIGIN: " + self.origin);
-var tempDouble, tempI64, wasmBinaryFile = self.origin + "/AcuantImageProcessingWorker.wasm";
+var tempDouble, tempI64, wasmBinaryFile = scriptDirectory + "/AcuantImageProcessingWorker.wasm";
 
 function getBinary() {
     try {
